@@ -10,3 +10,28 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body {
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;;
+}
+
+#counter {
+    display: flex;
+    justify-content: center;
+}
+
+.digitBox {
+    border: 1px solid slategray;
+    border-radius: 5px;
+    padding: 20px 10px;
+    margin:5px;
+    background-color: #131313;
+    text-align: center;
+    min-width: 60px;
+}
