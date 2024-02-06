@@ -15,13 +15,6 @@ let digit4 = 0;
 let digit5 = 0;
 let digit6 = 0;
 
-function resetDigit (reset, count) {
-    reset = 0;
-    count ++;
-    console.log("Count: " + count + "Reset: " + reset);
-    return [reset, count];
-}
-
 setInterval(function () {
     digit1++;
     if (digit1 === 9) {
