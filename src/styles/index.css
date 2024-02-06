@@ -1,9 +1,8 @@
-
 /* 
 
     You can write your own styles here...
     
-    
+
     ...Or you can use the import command to include 
     other sylesheets into your bunde as well, e.j:
     
@@ -27,7 +26,7 @@ body {
 }
 
 .digitBox {
-    border: 1px solid slategray;
+    border: 1px solid rgb(53, 53, 53);
     border-radius: 5px;
     padding: 20px 10px;
     margin:5px;
